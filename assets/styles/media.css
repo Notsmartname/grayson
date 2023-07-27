@@ -1,0 +1,239 @@
+@media (max-width:1199.99px) {}
+
+@media (max-width:991.99px) {
+
+    .nav__search-input {
+        width: 0;
+        transition: .5s;
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        border: none;
+    }
+
+    .nav__search:hover .nav__search-input {
+        width: 100%;
+        opacity: 1;
+        padding: 15px;
+    }
+    
+    .fashion__section-content {
+        overflow-x: scroll;
+        gap: 15px;
+    }
+    
+    .custom__section-cards {
+        overflow-x: scroll;
+        gap: 15px;
+    }
+
+}
+
+@media (max-width:767.99px) {
+    
+    .header__content {
+        min-height: 600px;
+        background-size: cover;
+    }
+    
+    .header__content-title {
+        font-size: 40px;
+    }
+    
+    .fashion__section-content {
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .nav {
+        position: relative;
+    }
+
+    .nav__list {
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        right: -100%;
+        align-items: flex-end;
+        gap: 0;
+        padding: 15px;
+        border: 1px solid rgba(135, 135, 135, 0.758);
+        background: #fff;
+        transition: .5s;
+    }
+
+    .header {
+        overflow: hidden;
+    }
+
+    .nav__content-menu:hover .nav__list {
+        right: 0;
+    }
+
+    .nav__list-link {
+        padding: 15px;
+    }
+
+    .dropdown__list {
+        left: -160%;
+    }
+
+    .dropdown .nav__list-link span {
+        display: flex;
+        order: 1;
+    }
+
+    .nav__list-link img {
+        margin-left: 0;
+        margin-right: 8px;
+    }
+
+    .nav__list-link:hover img {
+        transform: rotate(90deg);
+    }
+
+
+    .nav__content-menu {
+        order: 1;
+    }
+
+    .nav__content-menu {
+        margin-left: 15px;
+        margin-right: 0;
+    }
+
+    .menu__btn {
+        display: block;
+    }
+    
+    .project__section-content-btn {
+        font-size: 10px;
+        padding: 11px 21px;
+    }
+    
+    .custom__section-cards {
+        /* overflow-x: scroll; */
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .content-col__title {
+        font-size: 16px;
+    }
+    
+    .col__list-link {
+        font-size: 10px;
+    }
+    
+    .col__form-input {
+        
+        padding: 8px 6px;
+    }
+    
+    .col__form-input::placeholder {
+        font-size: 12px;
+    }
+    
+    .col__form-btn {
+        font-size: 12px;
+    }
+    
+    .section-card-title {
+        font-size: 16px;
+    }
+    
+    .section-card-price {
+        font-size: 14px;
+    }
+    
+    .content-col__descr {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width:576.99px) {
+    .header__content-title {
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 40px;
+        text-align: center;
+    } 
+
+    
+    .fashion__section-content {
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+    
+    .section__title {
+        font-size: 30px;
+    }
+    
+    .fashion__section-subtitle {
+        font-size: 14px;
+    }
+    
+    .project__section-content-title {
+        font-size: 15px;
+    }
+    
+    .project__section-content-subtitle {
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width:319.99px) {
+    
+    .section__title {
+        margin-top: 20px;
+        margin-bottom: 12px;
+    }
+
+    .footer__content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header__content-subTitle {
+        font-size: 22px;
+        line-height: 18px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .content-col__title {
+        margin-bottom: 8px;
+    }
+    
+    .header__content-title {
+        font-size: x-large;
+    }
+    
+    .header__content-subTitle {
+        font-size: 16px;
+    }
+    
+    .header__content-btn {
+        padding: 10px 5px;
+    }
+    
+    .project__section-content-subtitle {
+        line-height: 38px;
+    }
+    
+    .project__section-content-btn {
+        padding: 10px 5px;
+    }
+    
+    .custom__section-cards {
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    
+    .custom__section {
+        padding: 0;
+    }
+}
